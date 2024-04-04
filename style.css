@@ -8,7 +8,23 @@ body{
     text-align: center;
     width: 100vw;
     height: 100vh;
+    margin-top: 5%;
 }
+
+.madarauchiha::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url('Madara.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 0;
+    transform: translatex(90px);
+    z-index: -1;
+}
+
 
 .madarauchiha{
     margin: 0;
